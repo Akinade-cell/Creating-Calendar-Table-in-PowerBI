@@ -1,0 +1,1 @@
+Calendar = ADDCOLUMNS(CALENDARAUTO(), "DATEID", VALUE(FORMAT([Date], "YYYYMMDD")), "Year", YEAR( [Date]), "MonthNo", MONTH([Date]), "Month", FORMAT([Date], "mmm"), "Quarter", FORMAT([Date], "\QQ"), "YearMonth", FORMAT([Date], "YYYY-MM"), "WeekdayNo", WEEKDAY(  [Date], 2), "Weekday", FORMAT([Date], "ddd"))                                                             
